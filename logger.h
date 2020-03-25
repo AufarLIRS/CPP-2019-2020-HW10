@@ -6,27 +6,27 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <QFile>
 
 class Logger
 {
 private:
-  static Logger* l_instance;
   Logger(){};
-  Logger(const Logger&);
-  Logger& operator=(Logger&);
+  ~Logger(){};
+
+  Logger(Logger const&) = delete;
+  Logger& operator=(Logger const&) = delete;
 
 public:
-  static Logger* getInstance()
+  static Logger& Instance()
   {
-    if (!l_instance)
-      l_instance = new Logger();
-    return l_instance;
+    static Logger l;
+    return l;
   }
 
-  static std::ofstream file_;
+  QFile file_;
 
-  static void write(std::string data);
-  static void close();
+  static void log(QByteArray data);
 };
 
 #endif  // LOGGER_H

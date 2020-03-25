@@ -6,31 +6,26 @@ int Game::current_;
 void Game::generateNumbers()
 {
   current_ = 0;
-  QVector<int> vec;
-  for (int i = 0; i < 4; i++)
+  std::random_device device;
+  std::mt19937 algo(device());
+  std::uniform_int_distribution<std::mt19937::result_type> dist(1, 4);
+
+  while (numbers_.length() < 4)
   {
-    srand(time(nullptr));
-    while (vec.length() < 4)
+    int x = dist(algo);
+    if (!numbers_.contains(x))
     {
-      int x = rand() % 4 + 1;
-      if (vec.contains(x))
-      {
-        continue;
-      }
-      else
-      {
-        vec.push_back(x);
-      }
+      numbers_.push_back(x);
     }
   }
-  numbers_ = vec;
-  std::string nums = "";
+
+  QByteArray nums = "";
   for (auto n : numbers_)
   {
     nums += n;
   }
   qDebug() << numbers_[0] << numbers_[1] << numbers_[2] << numbers_[3];
-  Logger::write(nums);
+  Logger::log(nums);
 }
 
 bool Game::checkNumber(int button)

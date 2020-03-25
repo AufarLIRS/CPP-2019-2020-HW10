@@ -1,25 +1,13 @@
 #include "logger.h"
 
-Logger* getInstance();
-std::ofstream Logger::file_;
+Logger& instance = Logger::Instance();
 
-void Logger::write(std::string data)
+void Logger::log(QByteArray data)
 {
-  file_.open("logger.txt", std::ios::app);
-  if (file_)
+  instance.file_.setFileName("logger.txt");
+  if (instance.file_.open(QIODevice::WriteOnly))
   {
-    qDebug() << "file was opened";
-    file_ << data;
+    instance.file_.write(data + "\n");
+    instance.file_.close();
   }
-  else
-  {
-    qDebug() << "ERROR";
-  }
-  close();
-}
-
-void Logger::close()
-{
-  file_.close();
-  qDebug() << "file was closed";
 }

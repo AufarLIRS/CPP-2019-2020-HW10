@@ -6,6 +6,7 @@
 #include <QProcess>
 
 #include <cstdlib>
+#include <random>
 #include <time.h>
 #include <logger.h>
 
