@@ -11,8 +11,14 @@
 class Logger
 {
 private:
-  Logger(){};
-  ~Logger(){};
+  Logger()
+  {
+    qDebug() << "logger was created";
+  };
+  ~Logger()
+  {
+    qDebug() << "logger was destroyed";
+  };
 
   Logger(Logger const&) = delete;
   Logger& operator=(Logger const&) = delete;
