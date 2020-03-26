@@ -1,9 +1,8 @@
 #include "logger.h"
 
-Logger& logger = Logger::Instance();
-
 void Logger::log(QByteArray data)
 {
+  Logger& logger = Logger::getInstance();
   logger.file_.setFileName("logger.txt");
   if (logger.file_.open(QIODevice::WriteOnly))
   {

@@ -18,7 +18,7 @@ private:
   Logger& operator=(Logger const&) = delete;
 
 public:
-  static Logger& Instance()
+  static Logger& getInstance()
   {
     static Logger l;
     return l;
