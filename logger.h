@@ -24,7 +24,7 @@ public:
     return l;
   }
 
-  static QFile file_;
+  QFile file_;
 
   static void log(QByteArray data);
 };
