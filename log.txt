@@ -1,0 +1,84 @@
+GreenPushButton is clicked
+YellowPushButton is clicked
+BluePushButton is clicked
+RedPushButton is clicked
+You win!
+YellowPushButton is clicked
+RedPushButton is clicked
+BluePushButton is clicked
+GreenPushButton is clicked
+You win!
+BluePushButton is clicked
+YellowPushButton is clicked
+You lose!
+YellowPushButton is clicked
+RedPushButton is clicked
+You lose!
+GreenPushButton is clicked
+GreenPushButton is clicked
+You lose!
+YellowPushButton is clicked
+BluePushButton is clicked
+You lose!
+RedPushButton is clicked
+GreenPushButton is clicked
+YellowPushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
+RedPushButton is clicked
+BluePushButton is clicked
+You lose!
+RedPushButton is clicked
+GreenPushButton is clicked
+YellowPushButton is clicked
+BluePushButton is clicked
+You win!
+BluePushButton is clicked
+YellowPushButton is clicked
+YellowPushButton is clicked
+BluePushButton is clicked
+You lose!
+BluePushButton is clicked
+YellowPushButton is clicked
+RedPushButton is clicked
+GreenPushButton is clicked
+You win!
+RedPushButton is clicked
+GreenPushButton is clicked
+BluePushButton is clicked
+YellowPushButton is clicked
+You win!
+BluePushButton is clicked
+YellowPushButton is clicked
+GreenPushButton is clicked
+RedPushButton is clicked
+You win!
+YellowPushButton is clicked
+BluePushButton is clicked
+RedPushButton is clicked
+GreenPushButton is clicked
+You win!
+GreenPushButton is clicked
+YellowPushButton is clicked
+RedPushButton is clicked
+BluePushButton is clicked
+You win!
+RedPushButton is clicked
+GreenPushButton is clicked
+BluePushButton is clicked
+YellowPushButton is clicked
+You win!
+RedPushButton is clicked
+GreenPushButton is clicked
+YellowPushButton is clicked
+BluePushButton is clicked
+You win!
+BluePushButton is clicked
+You lose!
+BluePushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
+BluePushButton is clicked
