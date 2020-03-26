@@ -18,7 +18,7 @@ void Game::generateNumbers()
     nums += n;
   }
   qDebug() << numbers_[0] << numbers_[1] << numbers_[2] << numbers_[3];
-  Logger::log(nums);
+  Logger::getInstance().log(nums);
 }
 
 bool Game::checkNumber(int button)

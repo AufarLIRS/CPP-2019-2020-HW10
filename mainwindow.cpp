@@ -48,32 +48,32 @@ void MainWindow::checkButton(int buttonId)
     {
       case 1:
         ui->plainTextEdit->appendPlainText("First button was pushed");
-        Logger::log("user pushed the first button");
+        Logger::getInstance().log("user pushed the first button");
         break;
       case 2:
         ui->plainTextEdit->appendPlainText("Second button was pushed");
-        Logger::log("user pushed the second button");
+        Logger::getInstance().log("user pushed the second button");
         break;
       case 3:
         ui->plainTextEdit->appendPlainText("Third button was pushed");
-        Logger::log("user pushed the third button");
+        Logger::getInstance().log("user pushed the third button");
         break;
       case 4:
         ui->plainTextEdit->appendPlainText("Fourth button was pushed");
-        Logger::log("user pushed the fourth button");
+        Logger::getInstance().log("user pushed the fourth button");
         break;
     }
     if (Game::checkWin())
     {
       ui->plainTextEdit->appendPlainText("Win!");
-      Logger::log("user won!");
+      Logger::getInstance().log("user won!");
       reset();
     }
   }
   else
   {
     ui->plainTextEdit->appendPlainText("Loose :(");
-    Logger::log("user is a loser +_+");
+    Logger::getInstance().log("user is a loser +_+");
     reset();
   }
 }
@@ -112,5 +112,5 @@ void MainWindow::on_startPushButton_clicked()
   ui->startPushButton->setEnabled(false);
 
   ui->plainTextEdit->appendPlainText("New game");
-  Logger::log("user started new game");
+  Logger::getInstance().log("user started new game");
 }

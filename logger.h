@@ -32,7 +32,7 @@ public:
 
   QFile file_;
 
-  static void log(QByteArray data);
+  void log(QByteArray data);
 };
 
 #endif  // LOGGER_H
