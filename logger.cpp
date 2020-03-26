@@ -1,13 +1,14 @@
 #include "logger.h"
 
 Logger& instance = Logger::Instance();
+QFile Logger::file_;
 
 void Logger::log(QByteArray data)
 {
-  instance.file_.setFileName("logger.txt");
-  if (instance.file_.open(QIODevice::WriteOnly))
+  file_.setFileName("logger.txt");
+  if (file_.open(QIODevice::WriteOnly))
   {
-    instance.file_.write(data + "\n");
-    instance.file_.close();
+    file_.write(data + "\n");
+    file_.close();
   }
 }

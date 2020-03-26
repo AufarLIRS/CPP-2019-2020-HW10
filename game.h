@@ -7,12 +7,13 @@
 
 #include <cstdlib>
 #include <random>
+#include <algorithm>
 #include <time.h>
 #include <logger.h>
 
 class Game
 {
-  static QVector<int> numbers_;
+  static std::vector<int> numbers_;
   static int current_;
 
 public:

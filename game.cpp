@@ -1,23 +1,16 @@
 #include "game.h"
 
-QVector<int> Game::numbers_ = QVector<int>();
+std::vector<int> Game::numbers_;
 int Game::current_;
 
 void Game::generateNumbers()
 {
   current_ = 0;
-  std::random_device device;
-  std::mt19937 algo(device());
-  std::uniform_int_distribution<std::mt19937::result_type> dist(1, 4);
 
-  while (numbers_.length() < 4)
-  {
-    int x = dist(algo);
-    if (!numbers_.contains(x))
-    {
-      numbers_.push_back(x);
-    }
-  }
+  numbers_ = std::vector{ 1, 2, 3, 4 };
+
+  auto rng = std::default_random_engine{};
+  std::shuffle(std::begin(numbers_), std::end(numbers_), rng);
 
   QByteArray nums = "";
   for (auto n : numbers_)
