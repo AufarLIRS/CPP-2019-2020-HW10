@@ -10,15 +10,17 @@ void MainWindow::update(int i)
     if (counter != 3)
     {
       GameLogger::getInstance().update(i, 0);
+      counter++;
       return;
     }
-    else
-      GameLogger::getInstance().update(i, 1);
+    GameLogger::getInstance().update(i, 1);
+    ui->label_5->setText("VICTORY");
     dropRadioButtons();
     return;
   }
 
   GameLogger::getInstance().update(i, -1);
+  ui->label_5->setText("NOPE");
   dropRadioButtons();
 }
 
@@ -28,6 +30,7 @@ void MainWindow::dropRadioButtons()
   ui->radioButton_2->setChecked(false);
   ui->radioButton_3->setChecked(false);
   ui->radioButton_3->setChecked(false);
+  ui->radioButton_4->setChecked(false);
   counter = 0;
 }
 

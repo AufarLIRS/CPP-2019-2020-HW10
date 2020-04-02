@@ -1,21 +1,20 @@
 #ifndef SINGLETHONE_H
 #define SINGLETHONE_H
-#include <QFileInfo>
+#include <stdio.h>
 #include <QString>
-#include <memory>
 #include <QDebug>
+#include <iostream>
 
 using namespace std;
 class GameLogger
 {
-  QFile* log_;
-  QTextStream* textStr_;
-
   GameLogger()
   {
-    log_ = new QFile("/home/limberjack/Desktop/cpp_homework/CPP-2019-2020-HW10/log.txt");
-    qDebug() << log_->exists();
-    log_->open(QIODevice::WriteOnly | QIODevice::Text);
+    freopen("log.txt", "w", stdout);
+  }
+  ~GameLogger()
+  {
+    fclose(stdout);
   }
 
 public:
@@ -24,14 +23,14 @@ public:
     static GameLogger a;
     return a;
   }
-  void update(int i, int flag)
+  void static update(int i, int flag)
   {
     QString toWrite = "Player pressed button " + QString::number(i) + ".";
     if (flag == -1)
       toWrite += " Player have failed";
     else if (flag == 1)
       toWrite += " Player have won";
-    *textStr_ << toWrite << endl;
+    cout << toWrite.toStdString() << endl;
   }
 
   GameLogger(const GameLogger&) = delete;
