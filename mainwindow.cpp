@@ -18,7 +18,6 @@ MainWindow::~MainWindow()
 void MainWindow::reset()
 {
   ui->startPushButton->setEnabled(true);
-  ui->radioButton->setChecked(true);
   ui->firstPushButton->setEnabled(false);
   ui->secondPushButton->setEnabled(false);
   ui->thirdPushButton->setEnabled(false);
