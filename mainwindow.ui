@@ -6,8 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>353</width>
     <height>429</height>
+=======
+    <width>279</width>
+    <height>417</height>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
    </rect>
   </property>
   <property name="sizePolicy">
@@ -30,20 +35,35 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+<<<<<<< HEAD
      <item row="4" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
         <widget class="QPushButton" name="thirdPushButton">
+=======
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="fPB">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
          <property name="text">
+<<<<<<< HEAD
           <string>3</string>
+=======
+          <string>1</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QRadioButton" name="thirdRadioButton">
+=======
+        <widget class="QRadioButton" name="firstRadioButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -62,6 +82,7 @@
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QLabel" name="label_4">
          <property name="text">
           <string>3</string>
@@ -111,24 +132,44 @@
          <attribute name="buttonGroup">
           <string notr="true">buttonGroup</string>
          </attribute>
+=======
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>1</string>
+         </property>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
         </widget>
        </item>
       </layout>
      </item>
      <item row="2" column="0">
+<<<<<<< HEAD
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QPushButton" name="firstPushButton">
+=======
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="secondPushButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
          <property name="text">
+<<<<<<< HEAD
           <string>1</string>
+=======
+          <string>2</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QRadioButton" name="firstRadioButton">
+=======
+        <widget class="QRadioButton" name="secondRadioButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -147,28 +188,49 @@
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QLabel" name="label_2">
          <property name="text">
           <string>1</string>
+=======
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>2</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
       </layout>
      </item>
+<<<<<<< HEAD
      <item row="3" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <widget class="QPushButton" name="secondPushButton">
+=======
+     <item row="4" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="fourthPushButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
          <property name="text">
+<<<<<<< HEAD
           <string>2</string>
+=======
+          <string>4</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QRadioButton" name="secondRadioButton">
+=======
+        <widget class="QRadioButton" name="fourthRadioButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -187,28 +249,49 @@
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QLabel" name="label_3">
          <property name="text">
           <string>2</string>
+=======
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>4</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
       </layout>
      </item>
+<<<<<<< HEAD
      <item row="5" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QPushButton" name="fourthPushButton">
+=======
+     <item row="3" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QPushButton" name="thirdPushButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
          <property name="text">
+<<<<<<< HEAD
           <string>4</string>
+=======
+          <string>3</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QRadioButton" name="fourthRadioButton">
+=======
+        <widget class="QRadioButton" name="thirdRadioButton">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -227,15 +310,25 @@
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <widget class="QLabel" name="label_5">
          <property name="text">
           <string>4</string>
+=======
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>3</string>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
          </property>
         </widget>
        </item>
       </layout>
      </item>
+<<<<<<< HEAD
      <item row="6" column="0">
+=======
+     <item row="5" column="0">
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
       <widget class="QPushButton" name="startPushButton">
        <property name="text">
         <string>START</string>
@@ -250,7 +343,11 @@
     <rect>
      <x>0</x>
      <y>0</y>
+<<<<<<< HEAD
      <width>353</width>
+=======
+     <width>279</width>
+>>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
      <height>21</height>
     </rect>
    </property>
