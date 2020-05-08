@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<<<<<<< HEAD
-<!-- Written by QtCreator 4.11.1, 2020-05-08T16:11:32. -->
-=======
-<!-- Written by QtCreator 4.11.1, 2020-04-05T17:11:12. -->
->>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
+<!-- Written by QtCreator 4.11.1, 2020-05-08T18:06:36. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -291,14 +287,8 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/user/Documents/Git/CPP-2019-2020-HW10/CPP-2019-2020-TemplateQt.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/user/Documents/Git/CPP-2019-2020-HW10/CPP-2019-2020-TemplateQt.pro</value>
-=======
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">CPP-2019-2020-TemplateQt2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/user/Downloads/CPP-2019-2020-HW10/CPP-2019-2020-HW10/CPP-2019-2020-TemplateQt.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/user/Downloads/CPP-2019-2020-HW10/CPP-2019-2020-HW10/CPP-2019-2020-TemplateQt.pro</value>
->>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

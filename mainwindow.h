@@ -15,13 +15,8 @@ class MainWindow : public QMainWindow
 {
   Q_OBJECT
 
-<<<<<<< HEAD
   std::vector<int> numbers_;
   int current_;
-=======
-  std::vector<int> nums_;
-  int temp_;
->>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
 
 public:
   MainWindow(QWidget* parent = nullptr);
@@ -44,15 +39,12 @@ private slots:
   void reset();
 
   void generate();
-<<<<<<< HEAD
 
   bool checkNumber(int button);
 
   bool checkWin();
 
   void start();
-=======
->>>>>>> b69f2f7c3969cf53edd52ca79dca7984b05b1871
 
 private:
   Ui::MainWindow* ui;
